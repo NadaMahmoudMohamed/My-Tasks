@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression">
+    <test name="chrome">
+        <parameter name="Browser" value="chrome"/>
+        <classes>
+            <class name="TestRunner"/>
+        </classes>
+    </test>
+
+    <test name="firefox">
+        <parameter name="Browser" value="firefox"/>
+        <classes>
+            <class name="TestRunner"/>
+        </classes>
+    </test>
+    <!-- <test name="IOS">
+        <parameter name="platform" value="IOS"/>
+        <classes>
+            <class name="TestRunner"/>
+        </classes>
+    </test>
+    <test name="IOSReact">
+        <parameter name="platform" value="IOSReact"/>
+        <classes>
+            <class name="TestRunner"/>
+        </classes>
+    </test>-->
+</suite>

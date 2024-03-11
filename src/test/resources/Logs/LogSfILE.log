@@ -1,0 +1,16 @@
+30-10-2022 18:36:00 INFO [stepdefs.OnBoardingSteps]: Open the app & check that onboarding opened successfully
+30-10-2022 18:36:03 INFO [stepdefs.OnBoardingSteps]: click on CTA without permssion
+30-10-2022 18:36:06 INFO [stepdefs.OnBoardingSteps]: mark agree check box
+30-10-2022 18:36:08 INFO [stepdefs.OnBoardingSteps]: click on continue button
+30-10-2022 18:36:10 INFO [stepdefs.OnBoardingSteps]: click on let's go
+30-10-2022 18:36:17 INFO [stepdefs.OnBoardingSteps]: go through all the steps
+30-10-2022 18:36:18 INFO [stepdefs.OnBoardingSteps]: check that congratulations text & get started button opened succssfully
+30-10-2022 18:36:20 INFO [stepdefs.OnBoardingSteps]: click on get started button
+30-10-2022 18:37:02 INFO [stepdefs.OnBoardingSteps]: Open the app & check that onboarding opened successfully
+30-10-2022 18:37:06 INFO [stepdefs.OnBoardingSteps]: click on CTA without permssion
+30-10-2022 18:37:08 INFO [stepdefs.OnBoardingSteps]: mark agree check box
+30-10-2022 18:37:10 INFO [stepdefs.OnBoardingSteps]: click on continue button
+30-10-2022 18:37:12 INFO [stepdefs.OnBoardingSteps]: click on let's go
+30-10-2022 18:37:19 INFO [stepdefs.OnBoardingSteps]: go through all the steps
+30-10-2022 18:37:20 INFO [stepdefs.OnBoardingSteps]: check that congratulations text & get started button opened succssfully
+30-10-2022 18:37:22 INFO [stepdefs.OnBoardingSteps]: click on get started button
