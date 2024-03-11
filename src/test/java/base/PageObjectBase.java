@@ -205,6 +205,7 @@ public abstract class PageObjectBase {
     }
 
     public void clickOnElement(WebElement element) {
+
         try {
             waitForVisibility(element);
             waitForElementToBeClickable(element);

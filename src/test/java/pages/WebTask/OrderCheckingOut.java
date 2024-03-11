@@ -8,11 +8,11 @@ import java.net.MalformedURLException;
 
 public class OrderCheckingOut extends PageObjectBase {
 
-    public static By THINKING_IN_HTML_BOOK = By.id("XX");
-    public static By CART = By.id("CC");
-    public static By ADD_TO_BASKET_BUTTON = By.id("NN");
-    public static By CHECK_OUT_BUTTON = By.id("CH");
-    public static By BILLING_FORM = By.id("CH");
+    public static By THINKING_IN_HTML_BOOK = By.name("Thinking in HTML");
+    public static By CART = By.id("wpmenucartli");
+    public static By ADD_TO_BASKET_BUTTON = By.className("button product_type_simple add_to_cart_button ajax_add_to_cart");
+    public static By CHECK_OUT_BUTTON = By.className("checkout-button button alt wc-forward");
+    public static By BILLING_FORM = By.id("customer_details");
 
     public OrderCheckingOut() throws MalformedURLException {
         super();
@@ -35,6 +35,6 @@ public class OrderCheckingOut extends PageObjectBase {
     }
 
     public void clickOnAddBookToBasket() {
-        clickOnElement((WebElement) ADD_TO_BASKET_BUTTON);
+        ((WebElement) ADD_TO_BASKET_BUTTON).findElement(By.partialLinkText("/?add-to-cart=163")).click();
     }
 }
